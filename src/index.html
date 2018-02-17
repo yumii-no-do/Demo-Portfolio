@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
 
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
     <title>Portfolio({"Мефодьева Михаила"});</title>
     <meta name="author" content="Mefodiev Mikhail">
     <meta name="description" content="Сайт представляет собой портфолио Frontend-разработчика Мефодьева Михаила">
+    <meta name="Keywords" content="Мефодьев,Мефодьев Михаил, веб, разработчик, портфолио">
+    <meta name="robots" content="all">
     <meta property="og:image" content="./img/icon.png">
     <meta property="og:description" content="Сайт представляет собой портфолио Frontend-разработчика Мефодьева Михаила">
     <meta property="og:title" content="Portfolio(Мефодьева Михаила);">
@@ -18,9 +20,23 @@
     <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bundle.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114339882-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114339882-1');
+    </script>
+
+
 </head>
 
-<menu type="context">
+<menu>
     <button class="menuButton" title="Меню" id="menuButton" data-checked="0"></button>
     <div class="controls">
         <button class="control revert" id="previewPage"></button>
@@ -48,7 +64,7 @@
                 <a href="https://vk.com/yuumii" title="Вконтакте" class="button vk"></a>
                 <a href="https://github.com/yumii-no-do" title="Профиль на github" class="button git2"></a>
                 <a href="mailto:yumii.do.no@gmail.com?subject=Вопрос из Портфолио" title="Почта" class="button mail"></a>
-                <a href="https://cheboksary.hh.ru/applicant/resumes/view?resume=1f76787eff04fde2340039ed1f4c67386f6942" title="Резюме на HH" class="button hh"></a>
+                <a href="https://hh.ru/resume/1f76787eff04fde2340039ed1f4c67386f6942" title="Резюме на HH" class="button hh"></a>
             </div>
 
         </div>
