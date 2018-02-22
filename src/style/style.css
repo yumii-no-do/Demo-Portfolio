@@ -341,6 +341,11 @@ button:disabled {
     background-size: cover;
 }
 
+.bg3 {
+    background: url('../img/bg3.jpg') left bottom no-repeat no-repeat;
+    background-size: cover;
+}
+
 .next {
     background: #333333 url('../img/next_w.svg') center center no-repeat no-repeat;
     background-position: 14px 24px;
