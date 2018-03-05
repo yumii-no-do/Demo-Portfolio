@@ -337,7 +337,7 @@ button:disabled {
 }
 
 .bg2 {
-    background: url('../img/bg2.jpg') left bottom no-repeat no-repeat;
+    background: url('../img/mc-bg.jpg') left bottom no-repeat no-repeat;
     background-size: cover;
 }
 
